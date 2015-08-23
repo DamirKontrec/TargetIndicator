@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<meta charset="utf-8" /> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="target-indicator">
+		<h2 class="title">
+			Target Indicator Demo
+		</h2>
+		<div class="content">
+			<div class="indicator">
+				<p class="label">Reached:</p>
+				<div class="progress-bar">
+					<div class="slider">
+						<div class="percentage"></div>
+					</div>
+					<div class="text">
+						$<span class="reached-value"></span>
+					</div>
+				</div>
+				<div class="target">
+					<p class="title">Target</p>
+					<div class="separator">
+						<div class="upper-shade"></div>
+						<div class="lower-shade"></div>
+					</div>
+					<p class="sum">$<span class="target-value"></span></p>
+				</div>
+			</div>
+			<p class="disclaimer">
+				<span class="icon">i</span>
+				You need $<span class="remaining-value"></span> more to reach your target.
+			</p>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+<script type="text/javascript" src="js/target-indicator.js" ></script>
+<script type="text/javascript" src="js/app.js" ></script>
+</script>
+
+</html>
